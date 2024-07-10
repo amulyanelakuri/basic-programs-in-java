@@ -45,8 +45,22 @@ public class Main {
       {
         num=sc.nextInt();
         sum = sum+num;
-        average = sum/num;
+        average = sum/count;
       }
       System.out.println("average of the numbers :"+average);
+  }
+}
+// sum the array in java
+public class Main {
+    public static void main(String[] args) {
+      int[] array={1,2,3,4,5};
+      int length = array.length;
+      int sum = 0;
+      for(int i = 0;i<length;i++){
+        sum = sum+array[i];
+      }
+      System.out.println("enter the sum of the array : "+sum);
+      float average = (float)sum/length;
+      System.out.println("Enter the avg of th array :"+average);
   }
 }
