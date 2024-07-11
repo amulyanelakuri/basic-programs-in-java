@@ -96,5 +96,17 @@ public class Main
 	}
 		
 }
+// sorting in the array 
+
+public class Main {
+    public static void main(String[] args) {
+     int[] array = {21,45,12,67,34,43,25};
+     Arrays.sort(array);
+     for(int i=0;i<array.length;i++)
+     {
+       System.out.println(array[i]);
+     }
+    }
+}  
 
 
